@@ -1,0 +1,91 @@
+[{
+    "poster": "hellomojito/poster.jpg",
+    "title": "hellomojito",
+    "techno": "Vue.js, VueX, GSAP",
+    "description": "Hellomojito est le portfolio de l'agenceHellomojito dans la quel j'ai etait en poste.",
+    "participation": "Developpement VueJS, integrations, animations.",
+    "project_img": {
+      "first": "hellomojito/first.jpeg",
+      "second": "hellomojito/second.jpeg",
+      "third": "hellomojito/third.jpeg",
+      "four": "hellomojito/four.jpeg",
+      "five": "hellomojito/five.jpeg"
+    },
+    "link": "https://hellomojito.com"
+  },
+  {
+    "poster": "signature/poster.jpg",
+    "title": "signature",
+    "techno": "Nuxt.js, GSAP",
+    "description": "Signature est un site de presentation de produits qui vise a mettre en avant les prestation \"print\" de l'agence Hellomojito.",
+    "participation": "Developpement NuxtJS, integrations, communication avec une API, animations, utilisation du store.",
+    "project_img": {
+      "first": "signature/first.jpg",
+      "second": "signature/second.jpg",
+      "third": "signature/third.jpg",
+      "four": "signature/four.jpg",
+      "five": "signature/five.jpg"
+    },
+    "link": "false"
+  },
+  {
+    "poster": "mixologue/poster.jpeg",
+    "title": "mixologue",
+    "techno": "Vue.js, GSAP, VueX",
+    "description": "Le Mixologue est un vendeur de e-liquid pour cigarettes electronique.",
+    "participation": "Developpement VueJS, Update du projet, utilisation du store",
+    "project_img": {
+      "first": "mixologue/first.jpeg",
+      "second": "mixologue/second.jpeg",
+      "third": "mixologue/third.jpeg",
+      "four": "mixologue/four.jpeg",
+      "five": "mixologue/five.jpeg"
+    },
+    "link": "https://le-mixologue.com"
+  },
+  {
+    "poster": "auzen/poster.jpeg",
+    "title": "auzen",
+    "techno": "Javascript",
+    "description": "Auzen révolutionne l’accès aux soins auditifs en offrant un service premium inédit: l'accès en ligne à une grande variété d'aides auditives de pointe, à un prix juste et transparent.",
+    "participation": "Developpement javascript, integration, animation.",
+    "project_img": {
+      "first": "auzen/first.jpeg",
+      "second": "auzen/second.jpeg",
+      "third": "auzen/third.jpeg",
+      "four": "auzen/four.jpeg",
+      "five": "auzen/five.jpeg"
+    },
+    "link": "https://auzen.com"
+  },
+  {
+    "poster": "itq/poster.jpeg",
+    "title": "itq",
+    "techno": "Wordpress",
+    "description": "ITQ Security est un acteur majeur de la sécurité électronique, Spécialisé dans les technologies de sécurité électronique détection intrusion, vidéo surveillance, contrôle d’accès, détection incendie….",
+    "participation": "Integration WORDPRESS, developpement javascript, animation.",
+    "project_img": {
+      "first": "itq/first.jpeg",
+      "second": "itq/second.jpeg",
+      "third": "itq/third.jpeg",
+      "four": "itq/four.jpeg",
+      "five": "itq/five.jpeg"
+    },
+    "link": "https://www.itqsecurity.fr/"
+  },
+  {
+    "poster": "xls/poster.jpeg",
+    "title": "xls",
+    "techno": "Javascript",
+    "description": "Expert de la sécurité antivol, Spécialisée dans la surveillance électronique des articles en magasin, la société XL Security a conçu et réalisé une large gamme de solutions.",
+    "participation": "Developpement javascript, integration, animation.",
+    "project_img": {
+      "first": "xls/first.jpeg",
+      "second": "xls/second.jpeg",
+      "third": "xls/third.jpeg",
+      "four": "xls/four.jpeg",
+      "five": "xls/five.jpeg"
+    },
+    "link": "https://www.xlsecurity.com/"
+  }
+]

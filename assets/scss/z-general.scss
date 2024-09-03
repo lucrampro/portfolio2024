@@ -1,0 +1,101 @@
+
+
+// STYLE
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: Text;
+  background-color: #fefefe;
+  overflow-x: hidden;
+
+  @media screen and (min-width: 1280px){
+    // overflow: hidden;
+  }
+}
+
+.text--bold {
+  font-family: 'Text--bold';
+}
+
+.c-scrollbar_thumb {
+  opacity: 0;
+}
+.bg--noise {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+  pointer-events: none;
+}
+
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5%,-5%) }
+    20% { transform: translate(-10%,5%) }
+    30% { transform: translate(5%,-10%) }
+    40% { transform: translate(-5%,15%) }
+    50% { transform: translate(-10%,5%) }
+    60% { transform: translate(15%,0) }
+    70% { transform: translate(0,10%) }
+    80% { transform: translate(-15%,0) }
+    90% { transform: translate(10%,5%) }
+    100% { transform: translate(5%,0) }
+}
+
+h1 {
+  font-family: 'Title';
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 62px;
+  }
+
+  @media screen and (min-width: $laptop) {
+    font-size: 120px;
+  }
+}
+
+h2 {
+  font-family: Text;
+  margin: 5px 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+.padding {
+  padding: 80px 20px;
+
+  @media screen and (min-width: $laptop) {
+    padding: 15vw;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
